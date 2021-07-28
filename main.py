@@ -12,13 +12,11 @@ while(gameLoop):
 	if inputUser == value:
 		print(f'{inputUser} | {value} TIED! \n')
 
-
 	elif inputUser== "rock" and value=="paper":
 		print(f'{inputUser} | {value} You LOST! \n')
 
 	elif inputUser== "rock" and value=="paper":
 		print(f'{inputUser} | {value} You WON! \n')
-
 
 	elif inputUser== "paper" and value=="rock":
 		print(f'{inputUser} | {value} You WON! \n')
@@ -26,13 +24,11 @@ while(gameLoop):
 	elif inputUser== "paper" and value=="scissors":
 		print(f'{inputUser} | {value} You LOST! \n')
 
-
 	elif inputUser== "scissors" and value=="rock":
 		print(f'{inputUser} | {value} You LOST! \n')
 
 	elif inputUser== "scissors" and value=="paper":
 		print(f'{inputUser} | {value} You WON! \n')
-
 
 	elif inputUser=='x':
 		print('Bye Bye! \n')
